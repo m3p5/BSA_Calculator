@@ -8,7 +8,7 @@
 
 ### Description
 
-This Python program accepts either Metric (cm & kg) or English (inches & pounds) values to calculate a patient's BSA, and then uses this calculated BSA to compute dosing levels typical used during the Lymphodepletion phase for Multiple Myeloma patients undergoing CAR-T Cell Therapy.
+This Python program accepts either Metric (cm & kg) or English (inches & pounds) values to calculate a patient's BSA, and then uses this calculated BSA to compute dosing levels typically used during the Lymphodepletion phase for Multiple Myeloma patients undergoing CAR-T Cell Therapy.
 
 ### Key Features
 
