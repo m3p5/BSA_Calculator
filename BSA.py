@@ -2,28 +2,21 @@ from math import *
 from ti_system import *
 
 disp_clr()
-print("BSA Calculator v3 for")
-print("Myeloma CAR-T Lymphodepletion")
-print("")
+print("BSA Calculator v4 for Myeloma")
+print("CAR-T Cell Lymphodepletion\n")
 print("1 = Metric (cm & kg)")
-print("2 = SAE (inches & pounds)")
-print("")
-print("Units?")
-unit=int(input())
+print("2 = English (inches & pounds)\n")
+unit=int(input("Units? "))
 
 disp_clr()
 if unit==1:
-    print("Height (cm):")
-    h=float(input())
-    print("Weight (kg):")
-    w=float(input())
+    h=float(input("Height (cm): "))
+    w=float(input("Weight (kg): "))
 else:
-    print("Height (inches):")
-    hi=float(input())
-    print("Weight (pounds):")
-    wi=float(input())
+    hi=float(input("Height (inches): "))
+    wp=float(input("Weight (pounds): "))
     h=hi*2.54
-    w=wi/2.20462
+    w=wp/2.20462
 
 disp_clr()
 # Du Bois
@@ -35,10 +28,9 @@ pct=0
 if bsa_du>0:
     pct=(bsa_mo-bsa_du)/bsa_du*100
 
-print("Du Bois BSA   = ",round(bsa_du,4)," m²")
-print("Mosteller BSA = ",round(bsa_mo,4)," m²")
-print("Delta %       = ",round(pct,3),"%")
-print("")
+print("Du Bois BSA   = ",round(bsa_du,3)," m²")
+print("Mosteller BSA = ",round(bsa_mo,3)," m²")
+print("Delta %       = ",round(pct,2),"%\n")
 print("Press any key to continue...")
 wait_key()
 disp_clr()
@@ -46,11 +38,11 @@ disp_clr()
 # BSA capping
 bsa_use=bsa_mo
 if bsa_mo>2:
-    print("Cap BSA?")
+    print("Cap BSA Question:")
     print("1 = No Cap")
     print("2 = Cap at 2.0 m²")
     print("3 = Cap at 2.2 m²")
-    capc=int(input())
+    capc=int(input("Cap BSA? "))
     if capc==2:
         bsa_use=min(bsa_mo,2.0)
     elif capc==3:
@@ -59,13 +51,11 @@ if bsa_mo>2:
         bsa_use=bsa_mo
 
 disp_clr()
-print("Mosteller BSA used:",round(bsa_use,3),"m²")
-print("")
+print("Mosteller BSA used:",round(bsa_use,3),"m²\n")
 print("Fludarabine 30 mg/m²:")
 print("  Daily       =",int(30*bsa_use+0.5),"mg")
 print("  3 Day Total =",int(90*bsa_use+0.5),"mg")
 print("Cyclophosphamide 300 mg/m²:")
 print("  Daily       =",int(300*bsa_use+0.5),"mg")
-print("  3 Day Total =",int(900*bsa_use+0.5),"mg")
-print("")
+print("  3 Day Total =",int(900*bsa_use+0.5),"mg\n")
 print("Done!")
