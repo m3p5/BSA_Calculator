@@ -1,0 +1,10 @@
+Version 3
+- Initial Public Release.
+
+Version 2
+- Internal beta release.
+- "BSA Cap?" prompt only if BSA > 2. 
+- Minor cleanup of outputs.
+
+Version 1
+- Internal alpha release.
