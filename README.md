@@ -4,7 +4,7 @@
 
 ### Current Release
 
-* Vesion 3
+* Version 3
 
 ### Description
 
