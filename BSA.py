@@ -1,5 +1,5 @@
 # BSA Calculator
-# Version 5
+# Version 6
 
 from math import *
 from ti_system import *
@@ -64,7 +64,7 @@ while True:
     print("  3 Day Total =",int(900*bsa_use+0.5),"mg\n")
 
     # Repeat or exit prompt
-    again=int(input("Run again (1 = Yes, 2 = No)? "))
+    again=int(input("Run again (1 = Yes, 0 = No)? "))
     if again != 1:
         disp_clr()
         print("Goodbye!")
