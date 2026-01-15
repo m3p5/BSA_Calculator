@@ -6,7 +6,7 @@ from ti_system import *
 
 while True:
     disp_clr()
-    print("BSA Calculator v5 for Myeloma")
+    print("BSA Calculator v6 for Myeloma")
     print("CAR-T Cell Lymphodepletion\n")
     print("1 = Metric (cm & kg)")
     print("2 = English (inches & pounds)\n")
