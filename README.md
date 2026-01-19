@@ -4,7 +4,7 @@
 
 ### Current Release
 
-* Version 6
+* Version 7
 
 ### Description
 
