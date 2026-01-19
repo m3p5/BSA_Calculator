@@ -1,12 +1,9 @@
-# BSA Calculator
-# Version 6
-
 from math import *
 from ti_system import *
 
 while True:
     disp_clr()
-    print("BSA Calculator v6 for Myeloma")
+    print("BSA Calculator v7 for Myeloma")
     print("CAR-T Cell Lymphodepletion\n")
     print("1 = Metric (cm & kg)")
     print("2 = English (inches & pounds)\n")
@@ -39,7 +36,6 @@ while True:
     wait_key()
     disp_clr()
 
-    # BSA capping
     bsa_use=bsa_mo
     if bsa_mo>2:
         print("Cap BSA Question:")
@@ -63,7 +59,6 @@ while True:
     print("  Daily       =",int(300*bsa_use+0.5),"mg")
     print("  3 Day Total =",int(900*bsa_use+0.5),"mg\n")
 
-    # Repeat or exit prompt
     again=int(input("Run again (1 = Yes, 0 = No)? "))
     if again != 1:
         disp_clr()
