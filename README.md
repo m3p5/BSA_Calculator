@@ -1,6 +1,6 @@
 # Body Surface Area (BSA) Calculator for CAR-T Cell Lymphodepletion Dosing
 
-## This Python program is designed to run on the TI-84 Plus CE Python Edition Calculator
+## This Python program is designed to run on the TI-84 Plus CE Python graphing calculator
 
 ### Current Release
 
