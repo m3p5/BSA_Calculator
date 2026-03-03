@@ -4,7 +4,7 @@
 
 ### Current Release
 
-* Version 7
+- Version 7
 
 ### Description
 
@@ -12,7 +12,6 @@ This Python program accepts either Metric (cm & kg) or English (inches & pounds)
 
 ### Key Features
 
-* Calculates BSA using both the Du Bois and Mosteller methods.
-* Shows the % difference between these two BSA values (usually < 2%)
-* Uses the computed Mosteller BSA to determine the daily and total dosing for Fludarabine and Cyclophosphamide.
-
+- Calculates BSA using both the Du Bois and Mosteller methods.
+- Shows the % difference between these two BSA values (usually < 2%)
+- Uses the computed Mosteller BSA to determine the daily and total dosing for Fludarabine and Cyclophosphamide.

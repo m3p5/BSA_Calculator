@@ -1,22 +1,31 @@
+# ChangeLog
+
 Version 7
+
 - Minor nonfunctional updates.
 
 Version 6
+
 - Minor fix to Run again question.
 
 Version 5
+
 - Added Rerun or exit question.
 
 Version 4
+
 - Minor code cleanup.
 
 Version 3
+
 - Initial Public Release.
 
 Version 2
+
 - Internal beta release.
 - "BSA Cap?" prompt only if BSA > 2. 
 - Minor cleanup of outputs.
 
 Version 1
+
 - Internal alpha release.
