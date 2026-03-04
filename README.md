@@ -2,6 +2,8 @@
 
 ## This Python program is designed to run on the TI-84 Plus CE Python graphing calculator
 
+![TI-84 Plus CE Python](./References/ti-84-plus-ce-python-calculator.jpg)
+
 ### Current Release
 
 - Version 7
